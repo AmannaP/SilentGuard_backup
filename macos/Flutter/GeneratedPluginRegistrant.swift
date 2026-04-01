@@ -5,6 +5,7 @@
 import FlutterMacOS
 import Foundation
 
+<<<<<<< HEAD
 import firebase_auth
 import firebase_core
 import geolocator_apple
@@ -17,4 +18,8 @@ func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   GeolocatorPlugin.register(with: registry.registrar(forPlugin: "GeolocatorPlugin"))
   FLTGoogleSignInPlugin.register(with: registry.registrar(forPlugin: "FLTGoogleSignInPlugin"))
   FPPPackageInfoPlusPlugin.register(with: registry.registrar(forPlugin: "FPPPackageInfoPlusPlugin"))
+=======
+
+func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
+>>>>>>> 14ee8156bfb314f28c97c43730c9791b8a1f716e
 }

@@ -125,16 +125,15 @@ class LandingPage extends StatelessWidget {
                     decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black.withValues(alpha: 0.2),
+                          color: Colors.black.withOpacity(0.2),
                           blurRadius: 10,
                           offset: const Offset(0, 5),
                         ),
                       ],
                     ),
                     child: ElevatedButton(
-                      onPressed: () {
-                        // Logic for quick emergency report
-                      },
+                      onPressed: () =>
+                          Navigator.pushNamed(context, '/map_tracking_screen'),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,
                         shape: RoundedRectangleBorder(

@@ -3,9 +3,12 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
   firebase_auth
   firebase_core
   geolocator_windows
+=======
+>>>>>>> 14ee8156bfb314f28c97c43730c9791b8a1f716e
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

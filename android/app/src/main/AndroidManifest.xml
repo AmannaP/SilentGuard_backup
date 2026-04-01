@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
+=======
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+>>>>>>> 14ee8156bfb314f28c97c43730c9791b8a1f716e
     <application
         android:label="silent_guard"
         android:name="${applicationName}"

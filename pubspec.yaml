@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^6.2.1
   flutter_phone_direct_caller: ^2.2.1
   font_awesome_flutter: ^10.7.0
+<<<<<<< HEAD
   flutter_map: ^8.2.2
   latlong2: ^0.9.1
   geolocator: ^14.0.2
@@ -45,6 +46,8 @@ dependencies:
   firebase_auth: ^5.1.1
   google_sign_in: ^6.2.1
   http: 1.6.0
+=======
+>>>>>>> 14ee8156bfb314f28c97c43730c9791b8a1f716e
 
 
 dev_dependencies:
